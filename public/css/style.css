@@ -1,0 +1,159 @@
+nav {
+    width: 100%;
+    z-index: 99999;
+}
+
+nav .container {
+    padding: 15px 0px;
+    justify-content: space-between;
+}
+
+/* Change Logo in production mode */
+nav .container .left .logo h3 {
+    font-family: 'SegoeUI-Bold';
+}
+
+nav .container .right .links {
+    margin: 0;
+    padding: 0;
+}
+
+nav .container .right .links .link {
+    display: inline-block;
+    padding: 0px 15px;
+    margin: 2px 0px;
+}
+
+nav .container .right .links .link:last-child {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 15px;
+}
+
+header .container {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 8rem;
+}
+
+header .container .top {
+    position: relative;
+    top: 40%;
+}
+
+header .container .top h1 {
+    font-size: 3rem;
+}
+
+header .container .top h1 span {
+    text-decoration: line-through;
+    text-decoration-color: rgba(27, 188, 156, 0.5);
+}
+
+header .container .top p {
+    font-size: 1.2rem;
+}
+
+
+header .container .top .link {
+    margin: 50px 0px;
+}
+
+header .container .top .link a {
+    background: #1BBC9B;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+header .container .bottom {
+    padding-top: 5rem;
+}
+
+.first-section {
+    height: 450px;
+    background-image: linear-gradient(to top, #3be5fc, #00c7b5, #1bbc9b);
+}
+
+.first-section .container {
+    padding: 5rem;
+}
+
+.first-section .container .text {
+    text-align: center;
+}
+
+.first-section .container .text h1 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.first-section .container .text p {
+    color: #fff;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.second-section {
+    height: 500px;
+} 
+
+.second-section .container .row {
+    position: relative;
+    top: -35%;
+}
+
+.second-section .container .row .col-md {
+    background: #fff;
+    width: 350px;
+    height: 420px;
+    margin: 0px 20px;
+    padding: 2.5rem 2.5rem 0 2.5rem;
+    -webkit-box-shadow: 0px 0px 15px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px -13px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -13px rgba(0,0,0,0.75);
+    overflow: hidden;
+}
+
+.second-section .container .row .col-md:hover {
+    transition: box-shadow .5s;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+}
+
+.second-section .container .row .col-md .head img {
+    vertical-align: middle;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+}
+
+.second-section .container .row .col-md .head h3 {
+    vertical-align: middle;
+    display: inline-block;
+    width: 60%;
+    font-family: 'SegoeUI-Bold';
+    color: #676881;
+    text-transform: uppercase;
+}
+
+.second-section .container .row .col-md .content {
+    padding-top: 1rem;
+}
+
+.second-section .container .row .col-md .content p {
+    color: #777777;
+    padding-bottom: 1rem;
+}
+
+.second-section .container .row .col-md .content ul {
+    padding: 0;
+    margin: 0px 15px;
+}
+
+.second-section .container .row .col-md .content li{
+    padding: 5px 0px;
+}

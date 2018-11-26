@@ -1,0 +1,106 @@
+:root {
+    scroll-behavior: smooth;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'SegoeUI-Light';
+    src:
+        url('../fonts/segoe/segoe-ui-light/latest.woff2') format("woff2"),
+        url('../fonts/segoe/segoe-ui-light/latest.woff') format("woff"),
+        url('../fonts/segoe/segoe-ui-light/latest.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'SegoeUI-Semilight';
+    src:
+        url('../fonts/segoe/segoe-ui-semilight/latest.woff2') format("woff2"),
+        url('../fonts/segoe/segoe-ui-semilight/latest.woff') format("woff"),
+        url('../fonts/segoe/segoe-ui-semilight/latest.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    src:
+        url('../fonts/segoe/segoe-ui/latest.woff2') format("woff2"),
+        url('../fonts/segoe/segoe-ui/latest.woff') format("woff"),
+        url('../fonts/segoe/segoe-ui/latest.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'SegoeUI-Semibold';
+    src:
+        url('../fonts/segoe/segoe-ui-semibold/latest.woff2') format("woff2"),
+        url('../fonts/segoe/segoe-ui-semibold/latest.woff') format("woff"),
+        url('../fonts/segoe/segoe-ui-semibold/latest.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'SegoeUI-Bold';
+    src:
+        url('../fonts/segoe/segoe-ui-bold/latest.woff2') format("woff2"),
+        url('../fonts/segoe/segoe-ui-bold/latest.woff') format("woff"),
+        url('../fonts/segoe/segoe-ui-bold/latest.ttf') format("truetype");
+}
+
+/* Commons */
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'SegoeUI-SemiBold';
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    color: #293347;
+}
+
+a {
+    font-family: 'SegoeUI-SemiBold';
+    text-decoration: none;
+    color: #333;
+  }
+
+li {
+    font-family: 'SegoeUI';
+}
+
+p {
+    font-family: 'SegoeUI';
+    color: #7D7D7D;
+    margin: 5px 0px;
+}
+
+small {
+    font-family: 'SegoeUI-Bold';
+    font-weight: 600;
+}
+
+img {
+    pointer-events: none;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+}
