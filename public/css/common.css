@@ -6,41 +6,41 @@
 @font-face {
     font-family: 'SegoeUI-Light';
     src:
-        url('../fonts/segoe/segoe-ui-light/latest.woff2') format("woff2"),
-        url('../fonts/segoe/segoe-ui-light/latest.woff') format("woff"),
-        url('../fonts/segoe/segoe-ui-light/latest.ttf') format("truetype");
+        url('https://res.cloudinary.com/sijey/raw/upload/v1543445873/fonts/segoe/segoe-ui-light/latest.woff2') format("woff2"),
+        url('https://res.cloudinary.com/sijey/raw/upload/v1543445874/fonts/segoe/segoe-ui-light/latest.woff') format("woff"),
+        url('https://res.cloudinary.com/sijey/raw/upload/v1543445874/fonts/segoe/segoe-ui-light/latest.ttf') format("truetype");
 }
 
 @font-face {
     font-family: 'SegoeUI-Semilight';
     src:
-        url('../fonts/segoe/segoe-ui-semilight/latest.woff2') format("woff2"),
-        url('../fonts/segoe/segoe-ui-semilight/latest.woff') format("woff"),
-        url('../fonts/segoe/segoe-ui-semilight/latest.ttf') format("truetype");
+        url('https://res.cloudinary.com/sijey/raw/upload/v1543445891/fonts/segoe/segoe-ui-semilight/latest.ttf') format("woff2"),
+        url('https://res.cloudinary.com/sijey/raw/upload/v1543445892/fonts/segoe/segoe-ui-semilight/latest.woff') format("woff"),
+        url('https://res.cloudinary.com/sijey/raw/upload/v1543445891/fonts/segoe/segoe-ui-semilight/latest.ttf') format("truetype");
 }
 
 @font-face {
     font-family: 'SegoeUI';
     src:
-        url('../fonts/segoe/segoe-ui/latest.woff2') format("woff2"),
-        url('../fonts/segoe/segoe-ui/latest.woff') format("woff"),
-        url('../fonts/segoe/segoe-ui/latest.ttf') format("truetype");
+        url('https://res.cloudinary.com/sijey/raw/upload/v1543445815/fonts/segoe/segoe-ui/latest.woff2') format("woff2"),
+        url('https://res.cloudinary.com/sijey/raw/upload/v1543445816/fonts/segoe/segoe-ui/latest.woff') format("woff"),
+        url('https://res.cloudinary.com/sijey/raw/upload/v1543445817/fonts/segoe/segoe-ui/latest.ttf') format("truetype");
 }
 
 @font-face {
     font-family: 'SegoeUI-Semibold';
     src:
-        url('../fonts/segoe/segoe-ui-semibold/latest.woff2') format("woff2"),
-        url('../fonts/segoe/segoe-ui-semibold/latest.woff') format("woff"),
-        url('../fonts/segoe/segoe-ui-semibold/latest.ttf') format("truetype");
+        url('https://res.cloudinary.com/sijey/raw/upload/v1543445882/fonts/segoe/segoe-ui-semibold/latest.woff2') format("woff2"),
+        url('https://res.cloudinary.com/sijey/raw/upload/v1543445882/fonts/segoe/segoe-ui-semibold/latest.woff') format("woff"),
+        url('https://res.cloudinary.com/sijey/raw/upload/v1543445880/fonts/segoe/segoe-ui-semibold/latest.ttf') format("truetype");
 }
 
 @font-face {
     font-family: 'SegoeUI-Bold';
     src:
-        url('../fonts/segoe/segoe-ui-bold/latest.woff2') format("woff2"),
-        url('../fonts/segoe/segoe-ui-bold/latest.woff') format("woff"),
-        url('../fonts/segoe/segoe-ui-bold/latest.ttf') format("truetype");
+        url('https://res.cloudinary.com/sijey/raw/upload/v1543445845/fonts/segoe/segoe-ui-bold/latest.woff2') format("woff2"),
+        url('https://res.cloudinary.com/sijey/raw/upload/v1543445846/fonts/segoe/segoe-ui-bold/latest.woff') format("woff"),
+        url('https://res.cloudinary.com/sijey/raw/upload/v1543445846/fonts/segoe/segoe-ui-bold/latest.ttf') format("truetype");
 }
 
 /* Commons */
